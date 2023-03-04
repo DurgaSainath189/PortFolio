@@ -337,6 +337,9 @@ nav .fa{
     .headertext h1{
         font-size: 30px;
     } 
+    nav .logo{
+        font-size:30px;
+    }
     nav .fa{
         display: block;
     }
@@ -350,6 +353,9 @@ nav .fa{
         padding-top:50px;
         z-index: 2;
         transition: right 0.5s;
+    }
+    nav i{
+        font-size: 20px;
     }
     nav ul li{
         display:block;
@@ -370,6 +376,9 @@ nav .fa{
     .about-col1{
         margin-bottom: 30px;
     }
+    .about-col1 img{
+        margin-left: 10%;
+    }
     .about-col2{
         font-size:13px;
     }
@@ -377,7 +386,13 @@ nav .fa{
         font-size: 15px;
         margin-right: 20px;
     }
-    .contact-left,.contact-right{
+    .contact-left.contact-right{
         flex-basis: 100%;
+    }
+    .certificates-list div h1{
+        font-size:25px;
+    }
+    .certificates-list div p{
+        font-size:18px;
     }
 }
